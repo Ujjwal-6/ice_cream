@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Neucha;
+}
+header{
+  height: 100vh;
+  background-color: rgb(134, 230, 230);
+  
+}
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(72, 29, 192);
+  padding: 5px 40px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  
+  
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+.logo img{
+  float: left;
+  width: 130px;
+  height: auto;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  
+
+}
